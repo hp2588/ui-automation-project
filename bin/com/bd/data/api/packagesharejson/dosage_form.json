@@ -1,0 +1,7 @@
+{
+	"activeFlag": true,
+	"dosageFormCode": "${#dosageFormCode}",
+	"externalSystemKey": "${#externalSystemKey}",
+ 	"descriptionText": "${#descriptionText}",
+	"sortValue": "3"
+}

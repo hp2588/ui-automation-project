@@ -1,0 +1,8 @@
+[
+   {
+      "costAmount" : 120,
+      "vendorKey" : "${#vendorKey}",
+      "productIDKey" : "${#productIDKey}",
+      "preferred" : true
+   }
+]

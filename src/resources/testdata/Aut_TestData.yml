@@ -1,0 +1,226 @@
+app_url: https://logistics.qa-autologistics.tk
+
+Auth: 
+ userName: bduat5
+ password: bd@12345
+ ip: 172.16.254.60
+ user: Gary Busey
+ button1: Logout
+ button2: Confirm
+  
+FacilityName: Medanta456
+
+PrinterName: WMDCRXMP01
+
+NumberOfISA: 6
+  
+ISAList: 
+ ISA1: Chemo Frig1
+ ISA2: Chemo Room1
+ ISA3: IVAD2
+ ISA4: IVAD
+
+Used_ISA: Used 10
+
+ActionsItemsList:
+ Item1: Add Pick
+ Item2: Add Restock
+ Item3: Add Return
+ Item4: Batch Pick
+ Item5: Cycle Count
+ Item6: Choose ISA
+ Item7: Hold Transaction
+
+Menu_List:
+ Item1: Transaction Queue
+ Item2: Dashboard
+ Item3: Site Configuration
+ Item4: Support Data
+
+ 
+TabActions:
+ Pick: Picks
+ Restock: Restocks
+ Held: On Hold
+ Release: Release
+ 
+LinkAction:
+ Hold: Hold
+ Pick: Pick 
+ Delete: Delete
+ Release: Release
+ Restock: Restock
+ 
+TQ:
+ pickQueue: Picks
+ backgroundColor: cccccc
+ selectedTransactionColor: 96B4FF
+ inputQuantity: 10000
+ itemScanMessage: Waiting For Item Scan. Click 'Work without the scanner' to override scanning.
+
+ButtonActions:
+ PickNow : Pick Now
+ Hold: Hold
+ Delete: Delete
+ Release: Release
+ 
+SiteConfigurationList:
+ Item1: External Systems
+ Item2: Facilities
+ Item3: Destinations
+ Item4: Computers
+ Item5: ISAs
+ Item6: Printers
+ Item7: Distributors
+ Item8: Transaction Priorities
+ Item9: Priority Sort
+ Item10: Pick Schedules
+ Item11: Pick Routing Rules
+ 
+
+PrinterDetails:
+ ServerPrinterName: ServerPrinter
+ PrinterName: Printer_test
+ Model: QL-420 Plus
+ IPaddress: 10.44.46.55
+ PortNumber: 3745
+ MACaddress: 00-14-22-33-23-44
+ LabelBarcode: Labelbarcode
+ PaperWidth: 3.50
+ PaperHeight: 6.77
+
+DestinationDetails:
+ FacilityName: abc
+ 
+SchedulePicksDetails:
+ ScheduleName: Schedule
+ StartHour: 01:00
+ EndHour: 23:00
+
+SuccessMessages:
+ AddPrinter: Success! Changes have been saved.
+ AddHoldReason: Success! Changes have been saved.
+
+ 
+ExternalSystem:
+ SystemType: PIS
+
+PriorityList:
+ Priority1: STAT
+ Priority2: MANUALPICK
+ Priority3: MANUALRESTOCK
+
+PrinterColumnName:
+ Name: Name
+ Status: Status
+ 
+PrinterColumnNumber:
+ Name: 2
+ Status: 1
+ 
+CarouselColumnName:
+ Name: Name
+ Model: Model
+ Type: Type
+ Access: Access
+ Status: Status
+ 
+CarouselColumnNumber:
+ Name: 5
+ Model: 4
+ Type: 3
+ Access: 2
+ Status: 1
+ 
+GlColumnNumber:
+ Name: 3
+ AccountNumber: 2
+ Status: 1
+ 
+GlColumnName:
+ Name: Name
+ AccountNumber: Account Number
+ Status: Status
+
+SupportDataList:
+ Item1: Carousels
+ Item2: Hold Reasons
+ Item3: Dosage Forms
+ Item4: Dispense Units
+ Item5: Waste Reasons
+ Item6: General Ledger Accounts
+ 
+HoldReasonDetails:
+ HoldReasonName: HoldReasonNew1572844115867
+ 
+ToggleValue:
+ HoldReason: isActive
+ Carousel: toggle
+ GLAccount: activeFlag
+ 
+ 
+SearchFieldValue:
+ Carousel: searchFilter
+ HoldReason: search
+ GlAccount: search
+ 
+GlColumnNumber:
+ Name: 3
+ AccountNumber: 2
+ Status: 1
+
+GlColumnName:
+ Name: Name
+ AccountNumber: Account Number
+ Status: Status
+   
+DestinationTab:
+ General: General
+ Contact: Contact
+ Distributor_Accounts: Distributor Accounts
+ Items: Items
+ Users: Users
+ Label: Indicates required fields
+ InvalidData: Test
+ ValidData1: 123
+ ValidData2: 123.11
+ ValidationMessage1: Please enter a valid amount
+ ValidationMessage2: Please enter a valid email
+ InvalidEmailID: x@y.z
+ ValidEmailID: x@y.zz
+
+ComputerDetails:
+ ipAddress: 10.10.12.12
+ ComputerName: AutoComp
+ MACAddress: 12:34:56:67:78:89
+ FacilityName: Medanta456
+ Facilitydropdown: Select
+ InvalidMACAddress: 123-123-345-567-345
+ EditCompName: NewComp
+ 
+JSInjection:
+ HoldReasonName: alert('hello112')
+ 
+GLAccountDetails:
+ GLAccountDetailsName: GLAccountNew
+ 
+SuccessMessages:
+ AddPrinter: Success! Changes have been saved.
+ AddHoldReason: Success! Changes have been saved.
+ EditCarousel: Success! Changes have been saved.
+
+URL:
+ HoldReasonURL: https://logistics.uatbd.tk/supportdata/holdreason
+ GlAccountURL: https://logistics.uatbd.tk/supportdata/glaccount
+ 
+# Following details are to send the emailable report to all the recipients after test execution
+Email:
+  send: yes
+  recipients:
+     recipient1: ashis.raj@globallogic.com
+     recipient2: deepak.kumar19@globallogic.com
+
+#Following details are necessary for capturing screenshots
+screenshot:
+  takeScreenshot: yes
+  dirpath: "BD_Logs/screen-shot"

@@ -1,0 +1,23 @@
+{
+	"descriptionText": "${#descriptionText}",
+	"shortCode": "${#shortCode}",
+	"vendorContactPhoneNumberText": "99988877766",
+	"vendorContactFaxNumberText": "99988877755",
+	"vendorContactEmailAddressValue": "FirstName@bd.com",
+	"streetAddressText": "Street no 123/BT",
+	"cityName": "California",
+	"stateName": "California",
+	"postalCode": "112354",
+	"countryName": "USA",
+	"activeFlag": true,
+	"electronicDistributorFlag": false,
+	"vendorContactWebsiteAddressValue": "https://www.premierinc.com",
+	"internalFlag": true,
+	"facilityCode": "",
+	"manualDistributorFlag": true,
+	"purchaseOrderShortCodeUsedFlag": true,
+	"purchaseOrderDateUsedFlag": true,
+	"purchaseOrderISANameUsedFlag": true,
+	"purchaseOrderMedClassUsedFlag": true,
+	"costEachesFlag": true
+}

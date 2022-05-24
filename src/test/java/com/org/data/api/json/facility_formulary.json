@@ -1,0 +1,28 @@
+{
+  "prepackFlag": false,
+  "glAccountKey": null,
+  "requiresSetupFlag": false,
+  "needReviewFlag": false,
+  "packageShareQuantityRoundingFlag": false,
+  "excludeFromInventoryReportFlag": false,
+  "oldestExpirationDateTime": "2019-09-11T04:32:41.218Z",
+  "conversionBarCodeValue": "string",
+  "specialInstructionText": "string",
+  "admIgnoreCriticalLowFlag": false,
+  "enableOldestExpirationDateFlag": false,
+  "admIgnoreStockOutFlag": false,
+  "requestRestockLotInfoFlag": false,
+  "cycleCountIntervalDayAmount": 0,
+  "uomKey": "",
+  "costAmount": null,
+  "averageWholesalePriceAmount": null,
+  "fastmoverFlag": false,
+  "bulkItemID": "string",
+  "prepackConversionFactor": null,
+  "consignmentFlag": false,
+  "admQuantityRoundingFlag": false,
+  "forPackagerFlag": false,
+  "facilitiesKeys": [
+    "${#facilitiesKey}"
+  ]
+}

@@ -1,0 +1,10 @@
+# Following details are to send the emailable report to all the recipients after test execution
+Email:
+  send: yes
+  recipients:
+     recipient1: deepak.kumar19@globallogic.com
+
+#Following details are necessary for capturing screenshots
+screenshot:
+  takeScreenshot: yes
+  dirpath: "BD_Logs/screen-shot"

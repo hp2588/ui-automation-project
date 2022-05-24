@@ -1,0 +1,14 @@
+{
+	"routingRuleName": "${#routingRuleName}",
+	"SearchCriteriaGranularityLevel": 0,
+	"routingRuleSchedules": [
+		{
+			"scheduleKey": "${#scheduleKey}"
+		}
+	],
+	"routingRuleDestinations": [
+	],
+	"routingRuleTranPriority": [
+	],
+	"actorKey": "${#actorKey}"
+}

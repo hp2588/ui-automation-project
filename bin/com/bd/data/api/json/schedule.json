@@ -1,0 +1,7 @@
+{ 
+	"name": "[API][karate]-Schedule",
+	"scheduleDays": [ 0 ],
+	"startTime": "12:15:00",
+	"endTime": "12:30:00",
+	"facilityKey":"${#facilityKey}"
+} 

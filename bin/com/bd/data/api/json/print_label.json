@@ -1,0 +1,13 @@
+{
+	"categoryKey":"${#labelCategoryKey}",
+	"isActive":true,
+	"isPrintPickQuantityCopies":1,
+	"name":"${#name}",
+	"priorityAssignment":[
+		{
+			"transactionPriorityKey":"${#transactionPriorityKey}"
+		}
+	],
+	"stockKey":"${#stockDefinitionKey}",
+	"labelcategorycode":"${#labelCategoryCode}"
+}

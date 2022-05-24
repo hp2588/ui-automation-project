@@ -1,0 +1,724 @@
+app_url: https://logistics.uatb.logistics.bdservices.io/  
+weborder_app_url: https://weborder-ui.uatb.logistics.bdservices.io
+
+Auth:
+  userNameAdminUser: testvanguard01@vanguard.com
+  passwordAdminUser: Carefusion@12345
+  ip:  190.176.212.57
+  userNameSupportUser: bdsupport@vplx.com
+  passwordSupportUser: password
+  ip1: 10.93.17.18
+  user: testvanguard 02
+  button1: Logout
+  button2: Confirm
+  userName2: testadmin2@vplx2.com
+  password2: Carefusion@12345
+  userName3: testadmin3@vplx2.com
+  password3: Carefusion@12345
+  userName4: testadmin4@vplx2.com
+  password4: Carefusion@12345
+  userName5: testadmin5@vplx2.com
+  password5: Carefusion@12345
+  userName6: testadmin6@vplx2.com
+  password6: Carefusion@12345
+  userName7: testadmin7@vplx2.com
+  password7: Carefusion@12345
+  userNameWebOrderUser: testvanguard02@vanguard.com
+  passwordWebOrderUser: Carefusion@12345
+  userNameWebOrderUserName2: testvanguard05@vanguard.com
+  
+FacilityName: Fac1591175777655
+
+NumberOfISA: 8
+
+ISADisplaySettings:
+ MaxDisplayColumn: 20
+ DisplayIPAddress: 12.56.56.5
+ DisplayPortNumber: 4001
+ DisplayColumnsPerInch: 34
+
+ISAConfigurationTab:
+ maxRacks: 10
+ maxShelvesNumber: 10
+ shelfWidthValue: 10
+ maxBinNumber: 10
+ defaultBinWidthValue: 10
+ defaultBinDividersHorizontalNumber: 10
+ defaultBinDividersVerticalNumber: 10
+ ErrorMsg_BlankmaxRackNumber: Max Racks cannot be empty
+ ErrorMsg_BlankmaxShelvesNumber: Max Shelves cannot be empty
+ ErrorMsg_BlankshelfWidthValue: Shelf Width cannot be empty
+ ErrorMsg_BlankmaxBinNumber: Max Bins cannot be empty
+ ErrorMsg_BlankdefaultBinWidthValue: Default Bin Width cannot be empty
+ ErrorMsg_BlankdefaultBinDividersHorizontalNumber: Horizontal Dividers cannot be empty
+ ErrorMsg_BlankdefaultBinDividersVerticalNumber: Vertical Dividers cannot be empty
+
+ 
+ISAApprovedComputers:
+ PrinterNameISA: Printer_test1579003258851
+ ComputerNameOutsideComputer: WorkStationComputer-iS2tX
+ ComputerNameInsideComputer: WorkStationComputer-OIqzmw
+ DiplayBaseLeftOffset: 2
+
+AddISA:
+ FacilityList: My Facility 
+ Workstation: WorkStationComputer-iS2tX
+ Printer: Printer_test1579003258851
+ IPAddress: 10.11.22.34
+ Port: 46345
+ CarouselKey: ZAL-03
+ Device: 123456
+ FacilityName: Fac1590689533927
+ ResetInterval: 2
+ 
+
+ISAApprovedComputers:
+ ComputerStatic1: WorkStationComputer-iS2tX
+ PrinterNameISA: Printer44
+ ComputerNameOutsideComputer: Testing
+ ComputerNameInsideComputer: hhhh
+ ComputerStatic: WorkStationComputer-OIqzmw
+ PrinterStatic: Printer_test1579003258851
+ DiplayBaseLeftOffset: 2 
+ PrinterStatic1: TestUATPrinter
+ ComputerStatic2: IDMTEst
+ PrinterStatic2: test1
+
+
+ISAList:
+ ISA1: Name1588621295864
+ ISA2: Carousel2
+ ISA3: CareISA
+
+Used_ISA: Used 10
+
+ComputerDetails:
+ ipAddress: 10.10.12.12
+ ComputerName: AutoComp
+ MACAddress: 12:34:56:67:78:89
+ FacilityName: FortisUAT
+ Facilitydropdown: Select
+ InvalidMACAddress: 123-123-345-567-345
+ EditCompName: NewComp
+ DefaultValue: dsf
+ Default1: Select
+ IncorrectIPMessage: Please enter a valid IP4 address
+ IncorrectMACMessage: Please enter a valid MAC address
+ FacilityName: Test Facility
+ InvalidIpAddress: 12.556.8909.90
+
+
+
+ActionsItemsList:
+ Item1: Add Pick
+ Item2: Add Restock
+ Item3: Add Return
+ Item4: Batch Pick
+ Item5: Cycle Count
+ Item6: Select ISAs
+ Item7: Hold Transaction
+ Item8: Review/Release Batch Pick
+
+Menu_List:
+ Item1: Transaction Queue
+ Item2: Dashboard
+ Item3: Site Configuration
+ Item4: Support Data
+
+ 
+TabActions:
+ Pick: Picks
+ Restock: Restocks
+ Held: On Hold
+ Release: Release
+ 
+LinkAction:
+ Hold: Hold
+ Pick: Pick 
+ Delete: Delete
+ Release: Release
+ Restock: Restock
+ 
+TQ:
+ pickQueue: Picks
+ backgroundColor: cccccc
+ selectedTransactionColor: 96B4FF
+ inputQuantity: 10000
+ itemScanMessage: Scan Override
+ multiTransactionCount: 2
+ wasteQuatity: 1
+
+ButtonActions:
+ PickNow : Pick Now
+ Hold: Hold
+ Delete: Delete
+ Release: Release
+ 
+SiteConfigurationList:
+ Item1: External Systems
+ Item2: Facilities
+ Item3: Destinations
+ Item4: Computers
+ Item5: ISAs
+ Item6: Printers
+ Item7: Distributors
+ Item8: Transaction Priorities
+ Item9: Priority Sort
+ Item10: Pick Schedules
+ Item11: Pick Routing Rules
+ 
+RoutingRules:
+ ToolTip: 
+ Error: Rule Name cannot be empty.
+ FacilityName: Fac1589874482363
+ 
+PrinterDetails:
+ ServerPrinterName: ServerPrinter
+ PrinterName: Printer_test
+ Model: QL-420 Plus
+ IPaddress: 10.44.46.55
+ PortNumber: 3745
+ MACaddress: 00-14-22-33-23-44
+ LabelBarcode: Labelbarcode
+ PaperWidth: 3.50
+ PaperHeight: 6.77
+
+SchedulePicksDetails:
+ ScheduleName: Schedule
+ StartHour: 01:00
+ EndHour: 01:15
+ StartHour_last: 23:45
+ EndHour_last: 23:59
+ FacilityKey: american hospital
+ ErrorMsg_DuplicateScheduleName: This name already exists. Please provide a unique name .
+ ErrorMsg_EmptyScheduleName: Schedule Name cannot be empty
+ ErrorMsg_ScheduleNameWithSpecialChars: Only alphanumeric characters are allowed
+ ErrorMsg_EmptyDays: At least one day must be selected
+ ErrorMsg_InvalidHours: Start time should be greater than end time
+ DeletionMsg: The schedule TestSchedule1 has been deleted successfully
+ 
+SuccessMessages:
+ AddPrinter: Success! Changes have been saved.
+ AddHoldReason: Success! Changes have been saved.
+ EditCarousel: Success! Changes have been saved.
+ SuccessMessage: Success! Changes have been saved.
+ AddFacility: Success! Changes have been saved.
+ EditAdhocLabel: Your data has been saved successfully.
+ PriorityReorder: Success! Priorities Reorder Successfully
+
+ExternalSystem:
+ SystemType: PIS
+ SystemType2: CCE
+ TimeZone: (UTC) Coordinated Universal Time
+ Name: ExternalSystem
+ Name2: ES1
+ Name3: East Network
+ Name7: Ext1590689387982
+ Name8: Fac1590689533927
+ Name10: Ext1590822685421
+ Name9: Fac1591093185862
+ BulkItem: item
+ SearchItem: item34unique
+ itemId: SystemlevelItem77x1591167169254
+ myfacilities: My Facilities
+ facilityList1: Fac1589954732792
+ labeltag1: addlabel1
+ addedItem1: SystemlevelItem77x1589886806249
+ StrengthUOMsort: dd_2
+ StrengthUOMalpha: Codea1589350464426
+ Concentrationvolumesort: dd_2 
+ Concentrationvolumealpha: test_dropdown_value
+ Totalvolumesort: dd_2
+ Totalvolumealpha: test_dropdown_value
+ multicheckbox1: 37bc792f-2704-40ad-b8c7-038145cfb096
+ multicheckbox2: d8c7e047-92c0-4bc3-94ae-0c75edbf5065
+ pendingmultibox1: 0971f7d9-5457-4167-9d27-b51cb2805693
+ pendingmultibox2: 3c7310c9-a08e-47c7-a01b-575692da10d8
+ pendingitem1: 0971f7d9-5457-4167-9d27-b51cb2805693
+ pendingitem2: 3c7310c9-a08e-47c7-a01b-575692da10d8
+ pisitem1: ac5f3334-0045-49ed-008f-08d7f4ef33c9
+ pisitem2: 888b4baf-3c89-4252-0090-08d7f4ef33c9
+ chekboxvalue: 0971f7d9-5457-4167-9d27-b51cb2805693
+ SearchItem: ItemID1589269038964
+ locationNumber: locationpopover-1
+ multiplecheckboxes: addFromPisAllCheckbox
+ Itemtherapeutic2: thera1 
+ dosagevalue: Code1589955567012
+ dosagevalue2: AMPULE
+ itemsearch: ItemID1590691629369
+ Name10multicheckbox1: c3f793d5-e8b7-4256-bf43-914a8c104007
+ Name10multicheckbox2: a311c61a-1608-4007-86e0-82c1853a2518
+ 
+FilterItems:
+ attribute: Active
+ operator: Select
+ value: Select
+ attribute2: Dosage Form
+ operator2: Is
+ operator3: Is Not
+ value2: Code1589955567012
+ attribute3: Dispensing Unit
+ attribute4: Medication Class
+ value3: AMPULE
+ 
+LocationColumnNumber:
+ Description: 1
+ BrandName: 2
+
+PriorityList:
+ Priority1: STAT
+ Priority2: MANUALPICK
+ Priority3: MANUALRESTOCK
+
+PrinterColumnName:
+ Name: Name
+ Status: Status
+ 
+PrinterColumnNumber:
+ Name: 2
+ Status: 1
+ 
+CarouselColumnName:
+ Name: Name
+ Model: Model
+ Type: Type
+ Access: Access
+ Status: Status
+ 
+CarouselColumnNumber:
+ Name: 5
+ Model: 4
+ Type: 3
+ Access: 2
+ Status: 1
+ 
+LabelColumnName:
+ Name: Name
+ Label: Label Size Dimension
+ Status: Status
+ 
+LabelColumnNumber:
+ Name: 3
+ Label: 2
+ Status: 1
+ 
+HoldReasonColumnName:
+ Name: Name
+ Status: Status
+ Description: Description
+ 
+HoldReasonColumnNumber:
+ Name: 3
+ Description: 2
+ Status: 1
+
+DistributorAccountsColumnNumber:
+ DistributorName: 2
+ AccountNumber: 3
+
+DistributorDetails:
+ AccountNumber: 123456
+
+GlColumnNumber:
+ Name: 3
+ AccountNumber: 2
+ Status: 1
+ 
+GlColumnName:
+ Name: Name
+ AccountNumber: Account Number
+ Status: Status
+
+SupportDataList:
+ Item1: Carousels
+ Item2: Hold Reasons
+ Item3: Dosage Forms
+ Item4: Dispense Units
+ Item5: Waste Reasons
+ Item6: General Ledger Accounts
+ 
+DosageForm:
+ Code: Code
+ Description: Description
+ SortOrder: 9999
+ SelectPISType1: SeattleHospitalCare
+ SelectPISType2: SeattleHospitalCare
+ 
+ 
+HoldReasonDetails:
+ HoldReasonName: HoldReasonNew
+ Add_label: Add Hold Reason
+ ErrorMsg_DuplicateHoldReasonName: HoldReason Already Exists
+ 
+ToggleValue:
+ HoldReason: isActive
+ Carousel: toggle
+ GLAccount: activeFlag
+ DosageForm: activeFlag
+ WasteReason: isActive
+ Manufacturer: isActive
+ 
+SearchFieldValue:
+ Carousel: searchFilter
+ HoldReason: search
+ GlAccount: search
+ 
+GlColumnNumber:
+ Name: 3
+ AccountNumber: 2
+ Status: 1
+
+GlColumnName:
+   Name: Name
+   AccountNumber: Account Number
+   Status: Status
+
+DosageFormColumnNumber:
+ Code: 4
+ Description: 3
+ SortOrder: 2
+ Staus: 1
+
+InvalidEmail:
+ invalid1: invalid.email.com
+ invalid2: invalid@test@email.com
+ invalid3: i”n(v)a;l:id@email.com
+ valid: xyz@email.com
+ 
+InvalidMacAddress:
+ macAdd1: 45@45.45?23:45,45
+ macAdd2: 45346456
+  
+DestinationTab:
+ General: General
+ Contact: Contact
+ Distributor_Accounts: Distributor Accounts
+ Items: Items
+ Users: Users
+ Label: Indicates required fields
+ InvalidData: Test
+ ValidData1: 123
+ ValidData2: 123.11
+ ValidationMessage1: Please enter a valid amount
+ ValidationMessage2: Please enter a valid email
+ InvalidEmailID: x@y.z
+ ValidEmailID: x@y.zz
+ FacilityName: abc
+
+ErrorMessage: 
+ Email: Please enter a valid email
+ Phone: Please enter a valid phone number
+ Fax: Please enter a valid fax number
+ InputExternalSystemName: Name cannot be Empty
+ Code: Code cannot be empty
+ Code1: Code already exists
+ ActiveToggleMessage: No distributors have been selected for this destination. Select Show All to see all available distributors.
+ Code_Exist: Code already exists 
+ DispenseUnitName: This name already exists. Please provide a unique name .
+ DispenseUnitCode: This Codealready exists. Please provide a unique Code.
+ TooltipStock: The selected stock is for informational purposes only. This field is not passed to the label designer
+ CodeAlreadyExist: This Code already exists. Please provide a unique Code.
+ ESalreadyExist: This External System Name already exists. Please provide a unique External System Name .
+ ESalreadyExist1: This External System Name already exists. Please provide a unique External System Name .
+
+GLAccountDetails:
+ GLAccountDetailsName: GLAccountNew
+ ErrorMsg_Name: Name cannot be empty
+ ErrorMsg_AccountNumber: Account number cannot be empty
+ ErrorMsg_DuplicateName: This name already exists. Please provide a unique name .
+ ErrorMsg_DuplicateAccountNumber: This account number already exists. Please provide a unique account number .
+ GLAccountDetailsNumberWithSpecialCharacters: TestGL@1234
+ GLAccountPIS: BuyerFlow
+ 
+ 
+URL:
+ HoldReasonURL: https://logistics.uatbd.tk/supportdata/holdreason
+ GlAccountURL: https://logistics.uatbd.tk/supportdata/glaccount
+
+AddPick:
+ IPAddress: 47.0.107.83
+ searchItemName: AAItem
+ ExpectedMesage: To add a pick transaction, enter an item name above
+ ExpectedSearchHeader: ItemItemIDBrandNameQuantityonHandLocationPreferredNDC
+ IncorrectItemName: Zyxon
+ NoItemFoundMessage: No Results Found
+ ItemID: AAItem AAdosageForm
+ PreferredNDC: 1586170649
+ Quantity: 1
+ Priority: STAT Order
+ Destination: AADestination
+ ReqdMessage: Indicates required fields
+ ConfirmMessage: Are you sure you want to cancel the transaction?
+ Placeholder_FirstName: John
+ Placeholder_LastName: Smith
+ Placeholder_MiddleName: Adam
+ Placeholder_Room: 34
+ Placeholder_Bed: 02
+ Placeholder_Comments: Message
+ Placeholder_Visit: Enter  
+ Placeholder_MRN: Enter 
+ Placeholder_Order: Enter
+
+AddReturn:
+ ExpectedMessage: To add a return transaction, scan an item barcode or enter an item name above
+ TransactionPriority: RETURN
+ ActiveBarMessage: Waiting for Item Scan
+ searchItemName: AAItem
+ searchItemName1: AAItem
+ Source Location: ICU-01
+
+AddRestock:
+ IPAddress: 154.82.229.142
+ ExpectedSearchHeader: ItemItemIDBrandNameQuantityonhandLocationPreferredNDC
+ InactiveItemName: metoprolol
+ InvalidItemName: Cedar
+ NoItemFoundMessage: No Results Found
+ TransactionPriority: MANUALRESTOCK
+ ValidItemName: AAItem AAdosageForm
+ ValidQuantity: 1
+ InvalidQuantity: 0
+ WasteReasonPredefined: Expired
+
+EditItemLocation:
+ FacilityName: SunFacility
+ ISAName: ISABDFC
+ Header: Assign Location
+ UnassignHeader: Unassign Location
+ ErrorMessage: Minimum one location needs to be selected as Distributor for each facility
+
+
+Destination_ItemsTab:
+ ExpectedColumns: ItemItemIDNDCLimitOrderQuantityMaxOrderQuantity(eaches)PackageSizeActions
+ maxordervalue: 99999
+ MaxQtyErrorMessage: Enter a number
+ SearchItem1: ItemID1587551161556
+ SearchItem2: asprin2
+ SearchItem3: parmol1
+ DestinationName: Destination15875485953531
+ 
+Dropdown_Values:
+   makeModelData: Select,QL-420 Plus,SATO M8400,ZM400,ZT410
+
+RoutingRule:
+ ErrorMsg_NoData : No Matching Results.
+
+Facilities_TransactionQueueOptions:
+ Option1: Verify Pick/Restock Quantity
+ Option2: Enable Look Ahead (Pre-Position ISA)
+ Option3: Request Destination Selection for Returns
+ Option4: Require Hold Reason
+ Option5: Require Lot/Expiration During Restock
+ Option6: Reprint Label on Quantity Change
+ Option7: Ignore ADC Stock Out
+
+Facilities_CycleCount:
+ Color_enabled: 255,255,255
+ Color_disabled: 128,128,128
+ Header_message: ClickoneachhourtoenableselectionPressSHIFTMouseClicktoselectsamehourofalldays
+ StartTime: 12
+ EndTime: 12
+
+SystemLabel:
+ LabelName: LabelName
+ FacilityName: Fac1590689533927
+ StockName: Stock1585056163566 (2"W X 10"H)
+ CategoryName: Auto Dispensing Cabinet
+ PriorityName: STAT ORDER
+ SuccessMessage: Your data has been saved successfully.
+ PrinterName: Printer1586939421418
+ PrinterMessage: Label has been sent for printing.
+ NameIndex: 1
+ StockIndex: 2
+ popUpMessage: Are you sure you want to cancel this process?
+
+ 
+Facility:
+ ErrorMsg_BlankFacilityCode: Please enter a valid facility code
+ ErrorMsg_BlankFacilityName: Please enter a valid facility name
+ ErrorMsg_BlankExternalSystemName: Please select from the list of available External Systems
+ ErrorMsg_BlankEmail: Please enter a valid email
+ ErrorMsg_BlanktimeZoneId: Please select from the list of available Time Zones
+ ErrorMsg_BlankFaxNumber: Please enter a valid fax number
+ ErrorMsg_BlankpostalCode: Please enter a valid zip code
+ FacilityCode: 001
+ FacilityName:  Fac1589874482363
+ ExternalSystemName: CSS
+ RxLicenseId: 123456
+ DeaLicenseId: 23344
+ Invalidemail: p.yZ
+ Invalidemail2: abc@
+ email: testvanguard09@vanguard.com
+ timeZoneId: (UTC-12:00) International Date Line West
+ PhoneNumber1: 9999999999
+ PhoneNumber2: 1999999999
+ PhoneNumber3: 2999999999
+ InvalidFaxNumber: 1
+ FaxNumber1: 9999999999
+ FaxNumber2: 1xxxxxxxxxx
+ FaxNumber3: 2xxxxxxxxxx
+ streetAddress: dummyAddressdummyAddressdummyAddressdummyAddressdummyAddressdummyAddressdummyAddressdummyAddressdummyAddressdummyAddres
+ cityName: dummycitydummycitydummycitydummycitydummycitydumm
+ stateName: dummystate
+ postalCode: 123456
+ countryName: dummycountry
+ PlaceHolder: mm/dd/yyyy
+ RestockPrinter1: Printer 1
+ RestockPrinter2: Printer 1
+ RestockPrinter0: Printer 1
+ ValidEmail: nn.nn@cc.com
+ Contact: Fax
+ 
+
+Facilities_OtherFieldsOptions:
+ Opt1: Print composite label
+ Opt2: Require final scan validation of all component items
+ Opt3: Create fast-mover prepack orders when distributor POs are created
+ Opt4: Enable Price Tagging
+ Opt5: Send Order for Inactive Items to Exception Printer
+ Opt6: ADC Quantity Rounding
+ Opt7: Add Returns to Restock Queue on Hold
+ Opt8: Enable Smart Order Routing
+ Opt9: Enable receive-n-send for remote orders
+ Opt10: Send Pyxis Check Pick Info
+ Opt11: Ignore ADC Critical Low
+ 
+TherapeuticClass:
+ Code1: code1588235044749
+ Code2: code1588239997774
+ ExternalSystem2: Ext1586803810365
+ ExternalSystem1: Ext1587866975540
+ ExternalSystem3: Ext1587545638785
+ Name7: Ext1587866975540
+ Name8: Fac1587545804330
+ Itemtherapeutic1: code1588322475581
+ Itemtherapeutic2: code1588321605910
+   
+   
+FilterItems:
+ attribute: Active
+ operator: Select
+ value: Select
+ attribute2: Dosage Form
+ operator2: Is
+ operator3: Is Not
+ value2: Code1588621612854
+ attribute3: Dispensing Unit
+ attribute4: Medication Class
+ value3: True
+ 
+FilterItemsLocation:
+ attribute: Active Flag
+ operator: Select
+ value: Select
+ attribute1: Dosage Form
+ operator2: Is
+ operator3: Is Not
+ value2: IPO
+ attribute3: Dispensing Unit
+ attribute4: Medication Class
+ value3: Code1590690601049
+ 
+UOMDetails:
+ Error_msg_sort_order: Should be 1 to 9999
+ Error_msg_mandatory_fields: Please select atleast one role
+ Error_msg_conversion_factor: Should accept 10 digits before the decimal point and 14 digits after the decimal point
+ Error_msg_description: Description can't be empty
+ Uomname1: aqqqqqq
+ Error_msg_code: Code can't be empty
+ ErrorMsg_NoData : No Matching Results.
+
+# Following details are to send the emailable report to all the recipients after test execution
+Email:
+  send: yes
+  recipients:
+     recipient1: deepak.kumar19@globallogic.com
+
+#Following details are necessary for capturing screenshots
+screenshot:
+ takeScreenshot: yes
+ dirpath: "BD_Logs/screen-shot"
+ 
+ 
+WasteReasonColumnName:
+ Name: Name
+ Status: Status
+ 
+WasteReasonColumnNumber:
+ Name: 2
+ Status: 1
+
+WasteReasonDetails:
+ WasteReasonName: ANewWasteReason
+ WasteReasonPredefined: Broken/Damaged
+ WasteReasonMaxLengthName: ANewWasteReasonMaxLengthNameTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTestTest
+ Add_label: Add Waste Reason
+ ErrorMsg_DuplicateWasteReasonName: This name already exists. Please provide a unique name .
+ ValidationMsg: Name cannot be empty
+ ErrorMsg_NoData : No Matching Results.
+
+ManufacturerColumnName:
+ Name: Name
+ Status: Status
+ 
+ManufacturerColumnNumber:
+ Name: 2
+ Status: 1
+
+ManufacturerDetails:
+ ManufacturerName: ManufacturerNew
+ ValidationMsg: Name cannot be empty
+ RequiredFieldMsg: Indicates required fields
+ DefaultText: Search for a Manufacturer
+ ErrorMsg_NoData: No Matching Results.
+ ManufacturerStatus: Inactive
+ ErrorMsg_InvalidName: This name is not valid. Please update name .
+ 
+PurchaseOrderData:
+ FacilityName: Fac1589187678659
+ SearchItem1: ItemName1589191171045
+ SearchItem2: Item101
+ ItemElec: ItemElecOff123
+ Unable2OrderItem: MedTab
+ Distributor: dis1589190386484
+ ElecDistributor: dis1589190715002
+ ResolveNowMsg: Items Could Not Be Ordered, Please assign location/Distributor/NDC.  
+   
+PurchaseOrderDetail:   
+ itemIndex: 1
+ orderquantity: 10
+
+RemoteWebOrder:
+ OrderName: Automation-RO
+ MaxDailyQuantity: 700
+ UserName: testvanguard 02
+ NewUserName: testvanguard 05
+ OrderQuantity: 10
+ VerfiedState: Verified
+ PendingState: Pending
+ SentToDestinationState: Sent To Destination
+ VoidedState: Voided
+ InvoiceReceivedState: InvoiceReceived
+ VoidState: Void
+ itemQuantity: 700
+ RowColor: rgba(234, 239, 247, 1)
+ NonHighlightedRowColor: rgb(255, 255, 255, 1)
+ alphabet: I
+ MaxQuantity: 77893  
+
+ItemManagement:
+  PackageSize: 5
+  OrderQuantity: 10
+  
+IDM:
+  baseURL: https://idm-test-uswest2-idmsts.azurewebsite.net
+  basePath: /ids/connect/token
+  tenantCode: vplx2
+  tenantName: Vplx Tenant 2
+  client_id: pyxisone_logistics_hybrid_uatb
+  client_name: vplx_client
+  client_secret: secret
+  roleName: Admin
+  scope-facility: idmauthz.access idmauthz.config idmauthz.manageorganizationalresources
+  scope-role: idmauthz.access idmauthz.config idmauthz.manageroles
+  scope-userperm: idmauthz.access idmauthz.config idmauthz.manageuserpermissions
+  

@@ -1,0 +1,17 @@
+[
+  {
+    "preferred": true,
+    "productId": "${#productId}",
+    "manufacturerKey": "${#manufacturerKey}",
+    "packageSize": "1",
+    "tradeName": "Ranbaxy",
+    "preferredDistributor": "",
+    "distributors": [
+     
+    ],
+    "scanCode": "${#scanCode}",
+    "fromExternalSystem": false,
+    "productIdKey": "", 
+    "manufacturerName": "${#manufacturerName}"
+  }
+]  

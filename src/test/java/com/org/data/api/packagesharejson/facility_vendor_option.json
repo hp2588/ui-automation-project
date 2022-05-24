@@ -1,0 +1,17 @@
+[
+	{
+    	"descriptionText": "${#descriptionText}",
+		"vendorKey": "${#vendorKey}",
+		"activeFlag": true,
+		"shortCode": "${#shortCode}",
+		"vendorAccountCode": "${#vendorAccountCode}",
+		"precheckCreateOrderNonControlledFlag": false,
+		"enableAutoReceiveNonControlledFlag": false,
+		"enableAutoReceiveControlledTwoFlag": false,
+		"enableAutoReceiveControlledThreeToFiveFlag": false,
+		"enableReceiveAllFlag": false,
+		"autoRejectInvoiceFlag": true,
+		"enableManualInvoiceImportFlag": true,
+		"isDirty":true
+	}
+]

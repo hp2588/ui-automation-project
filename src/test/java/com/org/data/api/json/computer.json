@@ -1,0 +1,10 @@
+{
+  "computerName": "${#computerName}",
+  "ipAddress": "${#ipAddress}",
+  "macAddress": "00-05-9A-3C-7A-00",
+  "transactionQueueControllerFlag": true,
+  "activeFlag": true,
+  "mobileFlag": true,
+  "useSuffixFlag": true,
+  "facilityKey": "${#facilityKey}"
+}

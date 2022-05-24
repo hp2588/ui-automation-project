@@ -1,0 +1,7 @@
+{
+  "name": "${#name}",
+  "activeFlag": true,
+  "externalSystemKey": "${#externalSystemKey}",
+  "dispenseUnitCode": "${#dispenseUnitCode}",
+  "descriptionText": "${#descriptionText}"
+}

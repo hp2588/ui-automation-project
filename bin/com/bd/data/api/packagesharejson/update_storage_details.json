@@ -1,0 +1,52 @@
+{
+  "itemKey": "${#itemKey}",
+  "itemType": "Regular",
+  "descriptionText": "",
+  "assignmentItems": [
+    {
+      "storageSpaceItemKey": "${#storageSpaceItemKey}",
+      "facilityKey": "${#facilityKey}",
+      "isaKey": "${#isaKey}",
+      "storageSpaceKey": "${#storageSpaceKey}",
+      "medItemName": "",
+      "pickRoutingRuleKey": null,
+      "replenishmentStorageSpaceKey": null,
+      "defaultLocationFlag": true,
+      "orderFromDistributorFlag": true,
+      "parQuantity": "1000",
+      "refillPointQuantity": "10",
+      "location": "${#itemLocation}",
+      "inventoryQuantity": "700",
+      "isaType": "Internal",
+      "replanishmentList": [
+       
+      ],
+      "deviceTypeCode": null,
+      "storageSpaceInventoryKey": "${#storageSpaceInventoryKey}",
+      "validations": {
+        "refillPointQuantity": {
+          "isInvalid": false,
+          "message": ""
+        },
+        "parQuantity": {
+          "isInvalid": false,
+          "message": ""
+        },
+        "inventoryQuantity": {
+          "isInvalid": false,
+          "message": ""
+        },
+        "replenishmentStorageSpaceKey": {
+          "isInvalid": false,
+          "message": ""
+        },
+        "pickRoutingRuleKey": {
+          "isInvalid": false,
+          "message": ""
+        }
+      },
+      "id": 0,
+      "isEdited": true
+    }
+  ]
+}

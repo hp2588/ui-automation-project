@@ -1,0 +1,84 @@
+{
+  "data": {
+    "receivedDateTime": "2019-08-07T08:44:20.440Z",
+    "facilityCode": "Code1594017112142",
+    "externalSystemName": "Ext1594016984233",
+    "transactionPriorityCode": "Code1594019519612",
+    "deliveryDestinationName": "Code1594021104693",
+    "pharmacyOrderDetail": {
+      "prescriptionID": "Test_Participation",
+      "orderEffectiveDateTime": "2019-08-07T08:44:20.441Z",
+      "startDateTime": "2019-08-07T08:44:20.441Z",
+      "endDateTime": "2019-08-07T08:44:20.441Z",
+      "orderStrengthAmount": 2,
+      "orderStrengthUnitOfMeasureCode": "TestUOMCode",
+      "repeatPatternText": "Test_RepeatPattern",
+      "minimumGiveAmount": 1,
+      "maximumGiveAmount": 10,
+      "giveStrengthAmount": 20,
+      "giveStrengthUnitOfMeasureCode": "Test_UOMCode",
+      "giveDosageFormCode": "Test_giveDosageFormCode",
+      "orderInstructionText": "Test_orderInstructionText",
+      "orderRouteCode": "Test_orderRouteCode",
+      "orderDoseAmount": 50,
+      "orderTotalDoseAmount": 50,
+      "prnReasonText": "test",
+      "scheduleText": "",
+      "medExpirationDateTime": "2019-08-07T08:44:20.441Z",
+      "copeOrderID": "99",
+      "orderDurationAmount": 20,
+      "concentrationVolumeAmount": 30,
+      "wasteAmount": 40
+    },
+    "patientEncounterDetail": {
+      "encounterID": "abc",
+      "roomName": "15",
+      "bedID": "3",
+      "unitName": "TestUnit"
+    },
+    "patientInformation": {
+      "patientID": "5589",
+      "firstName": "Jonas",
+      "lastName": "Smith_016A001",
+      "middleName": "",
+      "nameSuffixText": "Mr.",
+      "dateOfBirthText": "15th June",
+      "accountID": "12345",
+      "allegeriesText": ""
+    },
+    "orderingPersonInformation": {
+      "verifiedByOrderingPersonFirstName": "Dj",
+      "verifiedByOrderingPersonLastName": "Kumar",
+      "orderPlacedByOrderingPersonFirstName": "Dije",
+      "orderPlacedByOrderingPersonLastName": "Tiwari",
+      "orderReviewedByOrderingPersonName": "Poji"
+    },
+    "userDefine": {
+      "customField1Value": "Test123",
+      "customField2Value": "Test123",
+      "customField3Value": "Test123",
+      "customField4Value": "Test123",
+      "customField5Value": "Test123"
+    },
+    "orderComponents": [
+
+      {
+        "itemID": "ItemID1594020136267",
+        "itemName": "ItemName1594020112631",
+        "pickQuantity": 1,
+        "pickUnitOfMeasureCode": "mg",
+        "strengthAmount": 625,
+        "strengthUnitOfMeasureCode": "2554a179-6b7d-4b9e-aadf-cc233a41dc89"
+      }
+    ]
+  },
+  "header": {
+    "requestID": "efa1dfb0-d7b7-41fc-9b6c-32da28c31e82",
+    "timeStamp": "2019-12-12T08:44:20.441Z",
+    "version": "1",
+    "tenantKey": "99471bdd-2159-41f0-9e8f-2009293b89fe",
+    "facilityCode": "Code1594017112142",
+    "externalSystemName": "Ext1594016984233",
+    "messageType": "IncomingRequestPick"
+  }
+}

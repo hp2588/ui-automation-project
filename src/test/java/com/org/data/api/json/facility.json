@@ -1,0 +1,23 @@
+{
+  "activeFlag": true,
+ "LiveFlag": "false",
+  "facilityCode": "564544114",
+  "pharmacyInformationSystemKey": "210e0623-ff47-496e-6c6d-08d86aa2e34b",
+  "facilityName": "[API][karate]-Facility-1",
+  "timeZoneId": "Cuba Standard Time",
+  "siteId": "string",
+  "descriptionText": "desc",
+  "customerContactName": "string",
+  "customerContactPhoneNumberText": "+1 999 111 2234",
+  "customerContactFaxNumberText": "+1 888 234 5678",
+  "customerContactEmailAddressValue": "test@xyz.com",
+  "streetAddressText": "string",
+  "streetAddress2Text": "string",
+  "cityName": "string",
+  "subDivisionName": "string",
+  "postalCode": "string",
+  "countryName": "string",
+  "rxLicenseId": "string",
+ "preferredContactMethodKey": "",
+  "id": 0
+}

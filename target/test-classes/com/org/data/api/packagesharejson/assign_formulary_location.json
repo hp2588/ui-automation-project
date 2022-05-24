@@ -1,0 +1,15 @@
+{
+  "refillPointQuantity": "1",
+  "parQuantity": "1",
+  "inventoryQuantity": "1",
+  "cycleCountInterval": "1",
+  "prePackQuantity": 0,
+  "prePackFixQuantity": "",
+  "storageSpaceInventoryKey": "",
+  "storageSpaceItemKey": "",
+  "itemId": "${#itemId}",
+  "medItemKey": "${#medItemKey}",
+  "prepackFixedQuantity": 0,
+  "IsUpdate": false,
+  "cycleCountIntervalDayAmount": "1"
+}

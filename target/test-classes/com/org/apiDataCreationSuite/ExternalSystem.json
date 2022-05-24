@@ -1,0 +1,13 @@
+{
+  "activeFlag": true,
+  "pharmacyInformationSystemFlag": true,
+  "systemType": "PIS",
+  "externalSystemName": "ExternalDemo",
+  "TimeZoneID": "UTC",
+  "pisProvidesMedClassFlag": false,
+  "pisProvidesTherapeuticClassFlag": false,
+  "allowPISItemEditFlag": true,
+  "editExternalScanCodeLinksFlag": false,
+  "ignorePISItemDeleteFlag": false,
+  "ignorePISItemUpdateFlag": false
+}

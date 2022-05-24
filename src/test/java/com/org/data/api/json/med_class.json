@@ -1,0 +1,8 @@
+{
+  "externalSystemKey": "${#externalSystemKey}",
+  "medicationClassCode": "${#medicationClassCode}",
+  "descriptionText": "${#descriptionText}",
+  "sortValue": 1,
+  "activeFlag": true,
+  "orderingInternalCode": 1
+}

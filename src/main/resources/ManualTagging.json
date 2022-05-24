@@ -1,0 +1,31 @@
+{
+    "data": {
+        "facilityCode": "Code1610090342410",
+        "invoiceDateTime": "2021-01-01",
+        "purchaseOrderID": "PO71194",
+        "invoiceID": "3WKVdrKCB",
+        "purchaseOrderDate": "2021-01-01",
+        "invoiceTypeCode": "9d07cbad-af30-4d6e-85c7-440c447bc74b",
+        "vendorCode": "UI1610272696127",
+        "invoiceLineItems": [
+            {
+                "vendorItemCode": "1610275426569",
+                "shippedQuantity": 5,
+                "productID": "6298668641",
+                "itemName": "ItemName1610275163968 Code1610091710706",
+                "packageSizeQuantity": 2,
+                "itemCostAmount": 2,
+                "orderedQuantity": 5
+            }
+        ]
+    },
+    "header": {
+        "requestID": "510071ac-828f-4f61-87f2-5261418d5f5f",
+        "timeStamp": "s3",
+        "version": "v2",
+        "tenantKey": "c0b7444f-31e4-4f36-b875-b4eaf21b1ca1",
+        "messageType": "Invoice",
+        "facilityCode": "Code1610090342410",
+        "externalSystemName": "Ext1610090249298"
+    }
+}
